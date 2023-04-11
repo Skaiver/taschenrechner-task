@@ -1,5 +1,6 @@
 <?php
 
+
 // global variable for the mysql-connection, to get access trough the hole class
 function getConnection()
 {
