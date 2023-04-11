@@ -1,9 +1,9 @@
 <?php
-$env = include './env.php';
 
 // global variable for the mysql-connection, to get access trough the hole class
 function getConnection()
 {
+    $env = include './env.php';
     $server = $env['host'];
     $user = $env['user'];
     $password = $env['pass'];
